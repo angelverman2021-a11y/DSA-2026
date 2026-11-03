@@ -4,6 +4,7 @@
 - **Topic**: Arrays, Hashing
 - **Pattern**: Hash Map (Complement Lookup)
 - **LeetCode Link**: [Two Sum](https://leetcode.com/problems/two-sum/)
+- **Verdict**: Accepted (Runtime: 0 ms ⚡)
 
 ---
 
@@ -30,6 +31,29 @@ i=1, num=7  ──► Needed: (9 - 7) = 2. Map: {2: 0} (FOUND!) ──► Return
 
 ## 💻 Solutions
 
+### C++ (Optimal 0 ms Solution)
+```cpp
+#include <vector>
+#include <unordered_map>
+
+using namespace std;
+
+class Solution {
+public:
+    vector<int> twoSum(vector<int>& nums, int target) {
+        unordered_map<int, int> seen;
+        for (int i = 0; i < nums.size(); ++i) {
+            int complement = target - nums[i];
+            if (seen.find(complement) != seen.end()) {
+                return {seen[complement], i};
+            }
+            seen[nums[i]] = i;
+        }
+        return {};
+    }
+};
+```
+
 ### Python 3
 ```python
 class Solution:
@@ -41,27 +65,6 @@ class Solution:
                 return [seen[complement], i]
             seen[num] = i
         return []
-```
-
-### C++
-```cpp
-#include <vector>
-#include <unordered_map>
-
-class Solution {
-public:
-    std::vector<int> twoSum(std::vector<int>& nums, int target) {
-        std::unordered_map<int, int> seen;
-        for (int i = 0; i < nums.size(); ++i) {
-            int complement = target - nums[i];
-            if (seen.find(complement) != seen.end()) {
-                return {seen[complement], i};
-            }
-            seen[nums[i]] = i;
-        }
-        return {};
-    }
-};
 ```
 
 ### Java
@@ -104,6 +107,21 @@ Input: `nums = [3, 2, 4]`, `target = 6`
 
 ---
 
+## 🧠 Key Learnings & Mental Models to Remember
+
+1. **Trade Space for Time**:
+   - By allocating $O(N)$ memory for an associative map, we eliminate the inner loop, dropping the runtime from $O(N^2)$ to $O(N)$.
+2. **One-Pass Look-Behind Pattern**:
+   - Rather than scanning ahead for what comes next, we keep an associative memory of where we've already been.
+   - Inserting elements *after* checking ensures we never use the same element twice (e.g., $nums[i] * 2 == target$).
+   - Handles identical values naturally (e.g. `[3, 3]`, target `6` finds the first 3 when at the second 3).
+3. **When to Apply in the Future**:
+   - **3Sum ($a + b + c = 0$)**: Fix one element $a$, then run Two Sum on the remaining subarray.
+   - **Subarray Sum Equals K**: Generalizes Two Sum with prefix sums ($\text{prefix}[j] - \text{prefix}[i] = K$).
+   - **Sorted Array**: If `nums` is already sorted, use **Two Pointers** (left & right) to solve it in $O(N)$ time with $O(1)$ space.
+
+---
+
 ## 📸 Submission Proof
-Add your accepted screenshot here:
-`../screenshots/leetcode-0001-two-sum.png`
+
+![LeetCode #1 Two Sum Accepted Proof](../screenshots/leetcode-0001-two-sum.png)

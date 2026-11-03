@@ -54,7 +54,7 @@ Welcome to **Week 01** of your 8-Week DSA Journey! This week lays the essential 
 
 | # | Problem Name | Difficulty | Core Pattern | LeetCode Link | Solution Notes | Screenshot Proof | Status |
 | :-: | :--- | :---: | :--- | :---: | :---: | :---: | :---: |
-| 001 | Two Sum | Easy | Hash Map (Complement) | [LeetCode #1](https://leetcode.com/problems/two-sum/) | [View](./problems/001_two_sum.md) | [Proof](./screenshots/) | ⚪ |
+| 001 | Two Sum | Easy | Hash Map (Complement) | [LeetCode #1](https://leetcode.com/problems/two-sum/) | [View](./problems/001_two_sum.md) | [Proof](./screenshots/leetcode-0001-two-sum.png) | 🟢 |
 | 002 | Contains Duplicate | Easy | Hash Set | [LeetCode #217](https://leetcode.com/problems/contains-duplicate/) | [View](./problems/002_contains_duplicate.md) | [Proof](./screenshots/) | ⚪ |
 | 003 | Valid Anagram | Easy | Frequency Array | [LeetCode #242](https://leetcode.com/problems/valid-anagram/) | [View](./problems/003_valid_anagram.md) | [Proof](./screenshots/) | ⚪ |
 | 004 | Group Anagrams | Medium | Hash Categorization | [LeetCode #49](https://leetcode.com/problems/group-anagrams/) | [View](./problems/004_group_anagrams.md) | [Proof](./screenshots/) | ⚪ |
