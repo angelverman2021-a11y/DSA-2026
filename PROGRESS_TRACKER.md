@@ -10,11 +10,11 @@
 
 | Metric | Target | Current | Percentage |
 | :--- | :---: | :---: | :---: |
-| **Total Problems** | 300 | 5 | 1.7% |
-| **Easy Problems** | 100 | 4 | 4.0% |
+| **Total Problems** | 300 | 6 | 2.0% |
+| **Easy Problems** | 100 | 5 | 5.0% |
 | **Medium Problems** | 170 | 1 | 0.6% |
 | **Hard Problems** | 30 | 0 | 0.0% |
-| **Week 1 Problems** | 35 | 5 | 14.3% |
+| **Week 1 Problems** | 35 | 6 | 17.1% |
 | **Week 2 Problems** | 35 | 0 | 0.0% |
 | **Week 3 Problems** | 35 | 0 | 0.0% |
 | **Week 4 Problems** | 35 | 0 | 0.0% |
@@ -48,7 +48,7 @@
 | 017 | Majority Element II | Medium | Extended Boyer-Moore ($> \lfloor n/3 \rfloor$) | [LeetCode #229](https://leetcode.com/problems/majority-element-ii/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/017_majority_element_ii.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
 | 018 | Rotate Array | Medium | Array Reversal In-Place | [LeetCode #189](https://leetcode.com/problems/rotate-array/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/018_rotate_array.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
 | 019 | Move Zeroes | Easy | Two Pointers (Slow/Fast Write) | [LeetCode #283](https://leetcode.com/problems/move-zeroes/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/019_move_zeroes.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/leetcode-0283-move-zeroes.png) | 🟢 |
-| 020 | Remove Duplicates from Sorted Array | Easy | Two Pointers (Slow/Fast Write) | [LeetCode #26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/020_remove_duplicates_from_sorted_array.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
+| 020 | Remove Duplicates from Sorted Array | Easy | Two Pointers (Slow/Fast Write) | [LeetCode #26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/020_remove_duplicates_from_sorted_array.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/leetcode-0026-remove-duplicates-from-sorted-array.png) | 🟢 |
 | 021 | Remove Element | Easy | In-Place Partitioning | [LeetCode #27](https://leetcode.com/problems/remove-element/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/021_remove_element.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
 | 022 | Merge Sorted Array | Easy | Three Pointers (Backwards Write) | [LeetCode #88](https://leetcode.com/problems/merge-sorted-array/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/022_merge_sorted_array.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
 | 023 | Squares of a Sorted Array | Easy | Two Pointers (Outward/Inward) | [LeetCode #977](https://leetcode.com/problems/squares-of-a-sorted-array/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/023_squares_of_a_sorted_array.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
