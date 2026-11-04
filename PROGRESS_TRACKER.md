@@ -10,11 +10,11 @@
 
 | Metric | Target | Current | Percentage |
 | :--- | :---: | :---: | :---: |
-| **Total Problems** | 300 | 3 | 1.0% |
-| **Easy Problems** | 100 | 3 | 3.0% |
-| **Medium Problems** | 170 | 0 | 0.0% |
+| **Total Problems** | 300 | 5 | 1.7% |
+| **Easy Problems** | 100 | 4 | 4.0% |
+| **Medium Problems** | 170 | 1 | 0.6% |
 | **Hard Problems** | 30 | 0 | 0.0% |
-| **Week 1 Problems** | 35 | 3 | 8.6% |
+| **Week 1 Problems** | 35 | 5 | 14.3% |
 | **Week 2 Problems** | 35 | 0 | 0.0% |
 | **Week 3 Problems** | 35 | 0 | 0.0% |
 | **Week 4 Problems** | 35 | 0 | 0.0% |
@@ -32,7 +32,7 @@
 | 001 | Two Sum | Easy | Hash Map (Complement Lookup) | [LeetCode #1](https://leetcode.com/problems/two-sum/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/001_two_sum.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/leetcode-0001-two-sum.png) | 🟢 |
 | 002 | Contains Duplicate | Easy | Hash Set / Frequency | [LeetCode #217](https://leetcode.com/problems/contains-duplicate/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/002_contains_duplicate.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/leetcode-0217-contains-duplicate.png) | 🟢 |
 | 003 | Valid Anagram | Easy | Frequency Array / Hash Map | [LeetCode #242](https://leetcode.com/problems/valid-anagram/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/003_valid_anagram.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/leetcode-0242-valid-anagram.png) | 🟢 |
-| 004 | Group Anagrams | Medium | Categorization by Hash / Sort | [LeetCode #49](https://leetcode.com/problems/group-anagrams/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/004_group_anagrams.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
+| 004 | Group Anagrams | Medium | Categorization by Hash / Sort | [LeetCode #49](https://leetcode.com/problems/group-anagrams/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/004_group_anagrams.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/leetcode-0049-group-anagrams.png) | 🟢 |
 | 005 | Top K Frequent Elements | Medium | Frequency Map + Bucket Sort | [LeetCode #347](https://leetcode.com/problems/top-k-frequent-elements/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/005_top_k_frequent_elements.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
 | 006 | Product of Array Except Self | Medium | Prefix & Suffix Products | [LeetCode #238](https://leetcode.com/problems/product-of-array-except-self/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/006_product_of_array_except_self.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
 | 007 | Longest Consecutive Sequence | Medium | Hash Set Sequence Expansion | [LeetCode #128](https://leetcode.com/problems/longest-consecutive-sequence/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/007_longest_consecutive_sequence.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
@@ -47,7 +47,7 @@
 | 016 | Majority Element | Easy | Boyer-Moore Voting Algorithm | [LeetCode #169](https://leetcode.com/problems/majority-element/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/016_majority_element.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
 | 017 | Majority Element II | Medium | Extended Boyer-Moore ($> \lfloor n/3 \rfloor$) | [LeetCode #229](https://leetcode.com/problems/majority-element-ii/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/017_majority_element_ii.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
 | 018 | Rotate Array | Medium | Array Reversal In-Place | [LeetCode #189](https://leetcode.com/problems/rotate-array/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/018_rotate_array.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
-| 019 | Move Zeroes | Easy | Two Pointers (Slow/Fast Write) | [LeetCode #283](https://leetcode.com/problems/move-zeroes/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/019_move_zeroes.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
+| 019 | Move Zeroes | Easy | Two Pointers (Slow/Fast Write) | [LeetCode #283](https://leetcode.com/problems/move-zeroes/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/019_move_zeroes.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/leetcode-0283-move-zeroes.png) | 🟢 |
 | 020 | Remove Duplicates from Sorted Array | Easy | Two Pointers (Slow/Fast Write) | [LeetCode #26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/020_remove_duplicates_from_sorted_array.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
 | 021 | Remove Element | Easy | In-Place Partitioning | [LeetCode #27](https://leetcode.com/problems/remove-element/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/021_remove_element.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
 | 022 | Merge Sorted Array | Easy | Three Pointers (Backwards Write) | [LeetCode #88](https://leetcode.com/problems/merge-sorted-array/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/022_merge_sorted_array.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
