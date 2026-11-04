@@ -10,11 +10,11 @@
 
 | Metric | Target | Current | Percentage |
 | :--- | :---: | :---: | :---: |
-| **Total Problems** | 300 | 2 | 0.7% |
-| **Easy Problems** | 100 | 2 | 2.0% |
+| **Total Problems** | 300 | 3 | 1.0% |
+| **Easy Problems** | 100 | 3 | 3.0% |
 | **Medium Problems** | 170 | 0 | 0.0% |
 | **Hard Problems** | 30 | 0 | 0.0% |
-| **Week 1 Problems** | 35 | 2 | 5.7% |
+| **Week 1 Problems** | 35 | 3 | 8.6% |
 | **Week 2 Problems** | 35 | 0 | 0.0% |
 | **Week 3 Problems** | 35 | 0 | 0.0% |
 | **Week 4 Problems** | 35 | 0 | 0.0% |
@@ -31,7 +31,7 @@
 | :-: | :--- | :---: | :--- | :---: | :---: | :---: | :---: |
 | 001 | Two Sum | Easy | Hash Map (Complement Lookup) | [LeetCode #1](https://leetcode.com/problems/two-sum/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/001_two_sum.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/leetcode-0001-two-sum.png) | 🟢 |
 | 002 | Contains Duplicate | Easy | Hash Set / Frequency | [LeetCode #217](https://leetcode.com/problems/contains-duplicate/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/002_contains_duplicate.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/leetcode-0217-contains-duplicate.png) | 🟢 |
-| 003 | Valid Anagram | Easy | Frequency Array / Hash Map | [LeetCode #242](https://leetcode.com/problems/valid-anagram/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/003_valid_anagram.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
+| 003 | Valid Anagram | Easy | Frequency Array / Hash Map | [LeetCode #242](https://leetcode.com/problems/valid-anagram/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/003_valid_anagram.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/leetcode-0242-valid-anagram.png) | 🟢 |
 | 004 | Group Anagrams | Medium | Categorization by Hash / Sort | [LeetCode #49](https://leetcode.com/problems/group-anagrams/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/004_group_anagrams.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
 | 005 | Top K Frequent Elements | Medium | Frequency Map + Bucket Sort | [LeetCode #347](https://leetcode.com/problems/top-k-frequent-elements/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/005_top_k_frequent_elements.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |
 | 006 | Product of Array Except Self | Medium | Prefix & Suffix Products | [LeetCode #238](https://leetcode.com/problems/product-of-array-except-self/) | [Code](./Week-01-Arrays-Strings-Hashing/problems/006_product_of_array_except_self.md) | [Screenshot](./Week-01-Arrays-Strings-Hashing/screenshots/) | ⚪ |

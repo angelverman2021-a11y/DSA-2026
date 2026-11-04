@@ -41,8 +41,8 @@ Track daily progress, problem difficulty distribution, and links to your code an
 
 ```
 Total Problems Target: [ 300 ]
-Solved:                [  2  ]
-Easy:                  [  2  ] / ~100
+Solved:                [  3  ]
+Easy:                  [  3  ] / ~100
 Medium:                [  0  ] / ~170
 Hard:                  [  0  ] / ~30
 ```
